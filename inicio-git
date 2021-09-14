@@ -1,0 +1,7 @@
+Instalar git na maquina:
+$ sudo apt install git
+
+Para instalar o git no ubuntu usando a versão estável:
+$ sudo add-apt-repository ppa:git-core/ppa
+$ sudo apt update
+$ sudo apt install git
