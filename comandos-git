@@ -1,0 +1,30 @@
+Git e github
+1-Configurações iniciais
+-Nome do usuário:
+$ git config --global user.name "Diego Santos"
+-Senha do usuário: 
+$ git config --global user.email "diegoluizcsti@gmail.com"
+-Escolher editor de texto padrão:
+$ git config –global core.editor s 
+no exemplo acima usei o sublime text.
+
+2-Essencial do git
+ -Criar pasta raíz do projeto, a pasta tem que ser o mesmo nome do projeto
+$ mkdir nome-do-projeto
+-entre na pasta e inicie o git nela
+$ cd nome-da-pasta
+$ git init
+
+-Para saber que estado está suas versão
+$ git status
+
+-Crie um arquivo e para adicionar um arquivo no git digite:
+$ git add nome-do-arquivo
+-Comitar o arquivo
+$ git commit -m "mensagem para guiar os commites"
+
+-Para mostar as informações dos commits
+$ git log
+
+Procurar os os commits pelo nome do autor
+$ git log --author=”nome do autor”
